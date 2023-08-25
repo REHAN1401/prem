@@ -1,0 +1,95 @@
+/* src/Form.css */
+.form-container {
+    max-width: 60%;
+    margin: 80px auto;
+    padding: 20px 25px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+   
+  }
+
+  .cross{
+   padding-right: 5px;
+  }
+
+  .error-message{
+    color: red;
+    font-size: 15px;
+  }
+  
+  .form-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-label{
+    font-size: 18px;
+  }
+  .form-group {
+    margin-bottom: 3px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-input,
+  .form-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  .form-select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"%3E%3Cpath fill="%23333" d="M8 12l5-7H3z"/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+    font-size: 15px;
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 3%;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .form-button2 {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 3%;
+  }
+  
+  .form-button2:hover {
+    background-color: #de3202;
+  }
+  
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Adjust the space between buttons as needed */
+  }
